@@ -12,9 +12,6 @@ include_once dirname(__DIR__) . '/administrator/components/com_geolive/core.php'
 <script
 	src="http://s3-us-west-2.amazonaws.com/nickolanackbucket/mootools/mootools_compat.js"
 	type="text/javascript"></script>
-<script type="text/javascript"
-	src="<?php echo UrlFrom(Core::ViewerDir().DS.'SimpleKml.js');?>">
-    </script>
 <script
 	src="<?php echo UrlFrom(Core::AdminDir().'/js/Ajax/AjaxControlQuery.js'); ?>"
 	type="text/javascript"></script>
